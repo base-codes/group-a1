@@ -2,12 +2,14 @@
   <section>
     <section
       class="contact"
-      :style="{ backgroundImage: 'url(' + require('@/assets/img/55.jpg') + ')' }"
+      :style="{
+        backgroundImage: 'url(' + require('@/assets/img/55.jpg') + ')',
+      }"
     >
       <div class="bx--grid">
         <div class="bx--row">
           <div class="bx--col-md-8 bx--col-lg-8">
-            <h1>Contactss</h1>
+            <h1>Contactss for kris</h1>
           </div>
         </div>
       </div>
@@ -20,8 +22,8 @@
             <p>
               Свяжитесь нами по телефону
               <cv-link href="tel: +7 (812) 416-31-09">
-                +7 (812) 416-31-09
-              </cv-link>или заполните форму
+                +7 (812) 416-31-09 </cv-link
+              >или заполните форму
             </p>
             <cv-form>
               <cv-text-input label="Имя" placeholder="Введите имя" />
@@ -29,7 +31,10 @@
                 label="Электронная почта"
                 placeholder="Введите адрес электронной почты"
               />
-              <cv-text-area label="Сообщение" placeholder="Введите текст сообщения" />
+              <cv-text-area
+                label="Сообщение"
+                placeholder="Введите текст сообщения"
+              />
               <cv-select label="Тема сообщения">
                 <cv-select-option disabled selected hidden>
                   Выбрать тему
@@ -54,11 +59,13 @@
               <cv-button>Отправить</cv-button>
             </cv-form>
           </div>
-          <div class="bx--col-md-6 bx--offset-md-2 bx--col-lg-6 bx--offset-lg-2">
+          <div
+            class="bx--col-md-6 bx--offset-md-2 bx--col-lg-6 bx--offset-lg-2"
+          >
             <h3>Контакты</h3>
             <p>
               Россия, 196620, г. Санкт-Петербург, г. Павловск,
-              <br>ул. Нахимсона, д. 8
+              <br />ул. Нахимсона, д. 8
             </p>
             <p>
               mail:
@@ -72,11 +79,9 @@
             <h3>Нужна помощь?</h3>
             <p>
               В разделе FAQ вы найдете ответы на
-              <br>часто задаваемые вопросы
+              <br />часто задаваемые вопросы
             </p>
-            <cv-link to="/faq">
-              FAQ >
-            </cv-link>
+            <cv-link to="/faq"> FAQ > </cv-link>
           </div>
         </div>
       </div>
