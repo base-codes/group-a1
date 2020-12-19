@@ -7,7 +7,7 @@
       <div class="bx--grid">
         <div class="bx--row">
           <div class="bx--col-md-8 bx--col-lg-8">
-            <h1>Контакты</h1>
+            <h1>Contactss</h1>
           </div>
         </div>
       </div>
