@@ -7,14 +7,17 @@
     @modal-hidden="CLOSE_MODAL_FORM()"
   >
     <template slot="label">
-      hui
+      Каталог
     </template>
     <template slot="title">
-      s gori
+      Заказать продукт
     </template>
     <template slot="content">
       <div class="bx--form-item">
-        <label for="text-input-3h9mddk235a" class="bx--label">Text Input label</label>
+        <label
+          for="text-input-3h9mddk235a"
+          class="bx--label"
+        >Введите ваш Email</label>
         <input
           id="text-input-3h9mddk235a"
           type="text"
